@@ -1,0 +1,46 @@
+@keyframes fadeIn {
+    from {
+      opacity:0;
+    } to {
+      opacity:1;
+    }
+}
+
+@keyframes slideUp {
+    from {
+        margin-top: 5%;
+        opacity: 0;
+    } to {
+        margin-top: 0%;
+        opacity: 1;
+    }
+}
+
+html, body { 
+    width: 100%; height: 100%;
+}
+
+body {
+    margin: 0px;
+}
+
+.mainBox {
+    height: 1600px;
+    background-color: #ffffff;
+    background-image: url('src/001.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    animation: fadeIn.7s linear;
+}
+
+.mainBox h1 {
+    color: white;
+    font-size: 128px;
+    text-align: center;
+    margin: 0 auto;
+    position:absolute;
+    top:40%; left:50%;
+    transform: translate(-50%, -50%);
+
+    animation: slideUp.7s linear;
+}
