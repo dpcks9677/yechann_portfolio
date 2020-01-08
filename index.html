@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <title>main</title>
 <link rel="stylesheet" href="style.css">
-<script src='animation.js'></script>
+<script src='page.js'></script>
 </head>
 <body>
     <section class='mainBox'>
@@ -13,18 +13,18 @@
     </section>
     <div id='container'>
         <ul class='menuBar'>
-            <li id='intro'>소개</li>
-            <li id='things'>작품</li>
-            <li id='contact'>연락</li>
+            <button id='intro' onclick="introViewer()">소개</button>
+            <button id='things' onclick="thingsViewer()">작품</button>
+            <button id='contact' onclick="contactViewer()">연락</button>
         </ul>
     </div>
-    <section class='pageBox' id='intro' style="display: block;">
+    <section class='pageBox' id='introSection' style="display: block;">
         인트로입니다.
     </section>
-    <section class='pageBox' id='things' style="display: none;">
+    <section class='pageBox' id='thingsSection' style="display: none;">
         작품입니다.
     </section>
-    <section class='pageBox' id='contact' style="display: none;">
+    <section class='pageBox' id='contactSection' style="display: none;">
         연락입니다.
     </section>
 </body>
