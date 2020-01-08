@@ -1,3 +1,13 @@
+@font-face {
+    font-family: nanumSquareEB;
+    src: url('src/fonts/NanumSquareEB.ttf');
+}
+
+@font-face {
+    font-family: nanumSquareB;
+    src: url('src/fonts/NanumSquareB.ttf');
+}
+
 @keyframes fadeIn {
     from {
       opacity:0;
@@ -8,7 +18,7 @@
 
 @keyframes slideUp {
     from {
-        margin-top: 5%;
+        margin-top: 3%;
         opacity: 0;
     } to {
         margin-top: 0%;
@@ -25,21 +35,25 @@ body {
 }
 
 .mainBox {
-    height: 1600px;
+    min-height: 150%;
     background-color: white;
-    background-image: url('src/001.jpg');
+    background-image: url('src/img/002.png');
     background-size: contain;
     background-repeat: no-repeat;
     animation: fadeIn.7s linear;
+    height: 900px;
 }
 
 .mainBox h1 {
     color: white;
-    font-size: 128px;
+
+    font-size: 96px;
+    font-family: nanumSquareEB;
     text-align: center;
+
     margin: 0 auto;
     position: absolute;
-    top: 40%; left: 50%;
+    top: calc(50% - 80px); left: 50%;
     transform: translate(-50%, -50%);
 
     animation: slideUp.7s linear;
@@ -47,8 +61,43 @@ body {
 
 .mainBox h2 {
     color: white;
-    font-size: 64px;
+
+    font-size: 45px;
+    font-family: nanumSquareB;
     text-align: center;
+
     margin: 0 auto;
     position: absolute;
+    top: calc(50% + 80px); left: 50%;
+    transform: translate(-50%, -50%);
+
+    animation: slideUp.7s linear;
+}
+
+#container {
+    text-align: center;
+}
+
+.menuBar {
+    margin-left: auto; margin-right: auto;
+    display: inline-block;
+}
+
+.menuBar li {
+    float: left;
+    list-style: none;
+
+    font-size: 32px;
+    font-family: nanumSquareB;
+    text-align: center;
+
+    width: 200px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.pageBox {
+    height: 2000px;
+    margin-left: 25%;
+    margin-right: 25%;
 }

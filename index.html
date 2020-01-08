@@ -4,18 +4,28 @@
 <meta charset="UTF-8">
 <title>main</title>
 <link rel="stylesheet" href="style.css">
+<script src='animation.js'></script>
 </head>
 <body>
     <section class='mainBox'>
-        <h1>Welcome</h1>
+        <h1>Welcome to Yechann's portfolio!</h1>
+        <h2>개발자 지망생 김예찬입니다</h2>
     </section>
     <div id='container'>
-        <div class='btn' id='intro'></div>
-        <div class='btn' id='things'></div>
-        <div class='btn' id='contact'></div>
+        <ul class='menuBar'>
+            <li id='intro'>소개</li>
+            <li id='things'>작품</li>
+            <li id='contact'>연락</li>
+        </ul>
     </div>
-    <div id='page'>
-
-    </div>
+    <section class='pageBox' id='intro' style="display: block;">
+        인트로입니다.
+    </section>
+    <section class='pageBox' id='things' style="display: none;">
+        작품입니다.
+    </section>
+    <section class='pageBox' id='contact' style="display: none;">
+        연락입니다.
+    </section>
 </body>
 </html>
