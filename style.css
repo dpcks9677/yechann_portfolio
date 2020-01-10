@@ -1,3 +1,5 @@
+/*폰트*/
+
 @font-face {
     font-family: nanumSquareEB;
     src: url('src/fonts/NanumSquareEB.ttf');
@@ -7,6 +9,8 @@
     font-family: nanumSquareB;
     src: url('src/fonts/NanumSquareB.ttf');
 }
+
+/*애니메이션*/
 
 @keyframes fadeIn {
     from {
@@ -25,6 +29,8 @@
         opacity: 1;
     }
 }
+
+/*베이스*/
 
 html, body { 
     width: 100%; height: 100%;
@@ -78,6 +84,8 @@ body {
     text-align: center;
 }
 
+/*메뉴바*/
+
 .menuBar {
     margin-left: auto; margin-right: auto;
     display: inline-block;
@@ -107,6 +115,8 @@ button:hover {
     transition-duration: 0.4s;
 }
 
+/*본문*/
+
 .pageBox {
     height: 2000px;
     padding-top: 5%;
@@ -124,30 +134,70 @@ button:hover {
     text-align: center;
 }
 
-.profile {
+/*인트로*/
+
+#profile {
     display: inline-block;
     padding-right: 50px;
 }
 
-.leftTextBox {
+#leftTextBox {
     display: inline-block;
     text-align: center;
 }
 
-.leftTextBox ul {
+#leftTextBox ul {
     float: left;
     text-align: left;
 
-    padding-bottom: 30%;
+    padding-bottom: 25%;
 }
 
 #name {
     font-size: 32px;
     font-family: nanumSquareB;
     list-style: none;
+
+    margin-left: -20px;
 }
 
-.leftTextBox ul li {
+#leftTextBox ul li {
     font-size: 20px;
     font-family: nanumSquareB;
+}
+
+.title {
+    font-size: 32px;
+    font-family: nanumSquareB;
+}
+
+.skill {
+    display: inline-block;
+    padding: 0 2%;
+}
+
+.comment {
+    font-family: nanumSquareB;
+}
+
+/*연락*/
+
+.iconBox {
+    display: block;
+    text-align: center;
+}
+
+.iconBox h1 {
+    display: inline-block;
+
+    font-size: 32px;
+    font-family: nanumSquareB;
+
+    margin: 0 auto;
+}
+
+.icon {
+    display: inline-block;
+
+    width: 5%;
 }
