@@ -27,3 +27,9 @@ function contactViewer() {
     things.style.display = 'none';
     contact.style.display = 'block';
 }
+
+/*
+window.addEventListener('scroll', function() {
+    document
+})
+*/

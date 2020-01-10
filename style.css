@@ -57,34 +57,173 @@ body {
     overflow: auto;
 }
 
-.mainBox h1 {
-    color: white;
-
-    font-size: 96px;
-    font-family: nanumSquareEB;
-    text-align: center;
-
-    margin: 0 auto;
-    position: absolute;
-    top: calc(50% - 80px); left: 50%;
-    transform: translate(-50%, -50%);
-
-    animation: slideUp.7s linear;
+/*~1875px*/
+@media all and (min-width: 1873px) {
+    .mainBox h1 {
+        color: white;
+    
+        font-size: 96px;
+        font-family: nanumSquareEB;
+        text-align: center;
+    
+        margin: 0 auto;
+        position: absolute;
+        top: calc(50% - 80px); left: 50%;
+        transform: translate(-50%, -50%);
+    
+        animation: slideUp.7s linear;
+    }
+    
+    .mainBox h2 {
+        color: white;
+    
+        font-size: 45px;
+        font-family: nanumSquareB;
+        text-align: center;
+    
+        margin: 0 auto;
+        position: absolute;
+        top: calc(50% + 80px); left: 50%;
+        transform: translate(-50%, -50%);
+    
+        animation: slideUp.7s linear;
+    }
 }
 
-.mainBox h2 {
-    color: white;
+/*1875~1400*/
 
-    font-size: 45px;
-    font-family: nanumSquareB;
-    text-align: center;
+@media all and (min-width:1400px) and (max-width:1872px)
+{
+    .mainBox h1 {
+        color: white;
+    
+        font-size: 96px;
+        font-family: nanumSquareEB;
+        text-align: center;
+    
+        margin: 0 auto;
+        position: absolute;
+        top: calc(50% - 120px); left: 50%;
+        transform: translate(-50%, -50%);
+    
+        animation: slideUp.7s linear;
+    }
+    
+    .mainBox h2 {
+        color: white;
+    
+        font-size: 45px;
+        font-family: nanumSquareB;
+        text-align: center;
+    
+        margin: 0 auto;
+        position: absolute;
+        top: calc(50% + 90px); left: 50%;
+        transform: translate(-50%, -50%);
+    
+        animation: slideUp.7s linear;
+    }
+}
 
-    margin: 0 auto;
-    position: absolute;
-    top: calc(50% + 80px); left: 50%;
-    transform: translate(-50%, -50%);
+/*1875~1096*/
 
-    animation: slideUp.7s linear;
+@media all and (min-width:1096px) and (max-width:1399px)
+{
+    .mainBox h1 {
+        color: white;
+    
+        font-size: 76px;
+        font-family: nanumSquareEB;
+        text-align: center;
+    
+        margin: 0 auto;
+        position: absolute;
+        top: calc(50% - 120px); left: 50%;
+        transform: translate(-50%, -50%);
+    
+        animation: slideUp.7s linear;
+    }
+    
+    .mainBox h2 {
+        color: white;
+    
+        font-size: 32px;
+        font-family: nanumSquareB;
+        text-align: center;
+    
+        margin: 0 auto;
+        position: absolute;
+        top: calc(50% + 50px); left: 50%;
+        transform: translate(-50%, -50%);
+    
+        animation: slideUp.7s linear;
+    }
+}
+
+@media all and (min-width:832px) and (max-width:1095px)
+{
+    .mainBox h1 {
+        color: white;
+    
+        font-size: 64px;
+        font-family: nanumSquareEB;
+        text-align: center;
+    
+        margin: 0 auto;
+        position: absolute;
+        top: calc(50% - 220px); left: 50%;
+        transform: translate(-50%, -50%);
+    
+        animation: slideUp.7s linear;
+    }
+    
+    .mainBox h2 {
+        color: white;
+    
+        font-size: 32px;
+        font-family: nanumSquareB;
+        text-align: center;
+    
+        margin: 0 auto;
+        position: absolute;
+        top: calc(50% - 80px); left: 50%;
+        transform: translate(-50%, -50%);
+    
+        animation: slideUp.7s linear;
+    }
+}
+
+@media all and (max-width:831px)
+{
+    .mainBox h1 {
+        color: white;
+    
+        font-size: 56px;
+        font-family: nanumSquareEB;
+        text-align: center;
+    
+        margin: 0 auto;
+        position: absolute;
+        top: calc(20%); left: 50%;
+        transform: translate(-50%, -50%);
+    
+        animation: slideUp.7s linear;
+    }
+    
+    .mainBox h2 {
+        color: white;
+    
+        font-size: 24px;
+        font-family: nanumSquareB;
+        text-align: center;
+    
+        margin: 0 auto;
+        position: absolute;
+        top: calc(32%); left: 50%;
+        transform: translate(-50%, -50%);
+    
+        animation: slideUp.7s linear;
+    }
 }
 
 #container {
@@ -125,12 +264,12 @@ button:hover {
 /*본문*/
 
 .pageBox {
-    height: 1500px;
+    height: 1600px;
     padding-top: 5%;
     padding-left: 20%;
     padding-right: 20%;
 
-    animation: fadeIn.7s linear; 
+    animation: fadeIn.3s linear; 
 }
 
 .container {
@@ -145,9 +284,19 @@ button:hover {
 
 /*인트로*/
 
-#profile {
-    display: inline-block;
-    padding-right: 50px;
+/*~1589px*/
+
+@media all and (min-width: 1589px) {
+    #profile {
+        display: inline-block;
+        padding-right: 50px;
+    }
+}
+
+@media all and (min-width: 1024px) and (max-width: 1588px) {
+    #profile {
+        display: block;
+    }
 }
 
 #leftTextBox {
@@ -189,14 +338,28 @@ button:hover {
     font-family: nanumSquareB;
 }
 
-.textBox {
-    font-size: 18px;
-    font-family: nanumSquareB;
+@media all and (min-width: 1025px) {
+    .textBox {
+        font-size: 18px;
+        font-family: nanumSquareB;
+    
+        width: 50%;
+        margin: 0 auto;
+    
+        text-align: left;
+    }
+}
 
-    width: 50%;
-    margin: 0 auto;
-
-    text-align: left;
+@media all and (max-width: 1024px) {
+    .textBox {
+        font-size: 18px;
+        font-family: nanumSquareB;
+    
+        width: 90%;
+        margin: 0 auto;
+    
+        text-align: left;
+    }
 }
 
 /*연락*/
