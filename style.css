@@ -180,6 +180,16 @@ button:hover {
     font-family: nanumSquareB;
 }
 
+.textBox {
+    font-size: 18px;
+    font-family: nanumSquareB;
+
+    width: 50%;
+    margin: 0 auto;
+
+    text-align: left;
+}
+
 /*연락*/
 
 .iconBox {
@@ -193,11 +203,12 @@ button:hover {
     font-size: 32px;
     font-family: nanumSquareB;
 
-    margin: 0 auto;
+    margin:10px 0;
 }
 
 .icon {
     display: inline-block;
 
-    width: 5%;
+    width: 40px;
+    vertical-align: middle;
 }
