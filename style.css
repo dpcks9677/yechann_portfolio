@@ -68,7 +68,7 @@ body {
     
         margin: 0 auto;
         position: absolute;
-        top: calc(50% - 80px); left: 50%;
+        top: calc(42%); left: 50%;
         transform: translate(-50%, -50%);
     
         animation: slideUp.7s linear;
@@ -83,7 +83,7 @@ body {
     
         margin: 0 auto;
         position: absolute;
-        top: calc(50% + 80px); left: 50%;
+        top: calc(57%); left: 50%;
         transform: translate(-50%, -50%);
     
         animation: slideUp.7s linear;
@@ -103,7 +103,7 @@ body {
     
         margin: 0 auto;
         position: absolute;
-        top: calc(50% - 120px); left: 50%;
+        top: calc(38%); left: 50%;
         transform: translate(-50%, -50%);
     
         animation: slideUp.7s linear;
@@ -118,14 +118,14 @@ body {
     
         margin: 0 auto;
         position: absolute;
-        top: calc(50% + 90px); left: 50%;
+        top: calc(59%); left: 50%;
         transform: translate(-50%, -50%);
     
         animation: slideUp.7s linear;
     }
 }
 
-/*1875~1096*/
+/*1400~1096*/
 
 @media all and (min-width:1096px) and (max-width:1399px)
 {
@@ -138,7 +138,7 @@ body {
     
         margin: 0 auto;
         position: absolute;
-        top: calc(50% - 120px); left: 50%;
+        top: calc(35%); left: 50%;
         transform: translate(-50%, -50%);
     
         animation: slideUp.7s linear;
@@ -153,7 +153,7 @@ body {
     
         margin: 0 auto;
         position: absolute;
-        top: calc(50% + 50px); left: 50%;
+        top: calc(52%); left: 50%;
         transform: translate(-50%, -50%);
     
         animation: slideUp.7s linear;
@@ -171,7 +171,7 @@ body {
     
         margin: 0 auto;
         position: absolute;
-        top: calc(50% - 220px); left: 50%;
+        top: calc(25%); left: 50%;
         transform: translate(-50%, -50%);
     
         animation: slideUp.7s linear;
@@ -186,7 +186,7 @@ body {
     
         margin: 0 auto;
         position: absolute;
-        top: calc(50% - 80px); left: 50%;
+        top: calc(39%); left: 50%;
         transform: translate(-50%, -50%);
     
         animation: slideUp.7s linear;
