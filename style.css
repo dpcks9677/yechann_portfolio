@@ -271,7 +271,6 @@ button:hover {
 
 .leftTextBox {
     display: inline-block;
-    text-align: center;
 }
 
 
@@ -302,6 +301,8 @@ button:hover {
 .leftTextBox ul li {
     font-size: 20px;
     font-family: nanumSquareB;
+
+    text-align: left;
 }
 
 .title {
