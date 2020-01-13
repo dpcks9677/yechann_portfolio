@@ -49,26 +49,28 @@ body {
 }
 
 .mainBox {
+    position: relative;
+
     background-color: white;
     background-size: contain;
     background-repeat: no-repeat;
     animation: fadeIn.7s linear;
-
-    overflow: auto;
 }
 
-/*~1875px*/
-@media all and (min-width: 1873px) {
+/* 832~1095*/
+
+@media all and (min-width:832px) and (max-width:1095px)
+{
     .mainBox h1 {
         color: white;
     
-        font-size: 96px;
+        font-size: 64px;
         font-family: nanumSquareEB;
         text-align: center;
     
         margin: 0 auto;
         position: absolute;
-        top: calc(42%); left: 50%;
+        top: calc(40%); left: 50%;
         transform: translate(-50%, -50%);
     
         animation: slideUp.7s linear;
@@ -77,13 +79,48 @@ body {
     .mainBox h2 {
         color: white;
     
-        font-size: 45px;
+        font-size: 32px;
         font-family: nanumSquareB;
         text-align: center;
     
         margin: 0 auto;
         position: absolute;
-        top: calc(57%); left: 50%;
+        top: calc(67%); left: 50%;
+        transform: translate(-50%, -50%);
+    
+        animation: slideUp.7s linear;
+    }
+}
+
+/*1399~1096*/
+
+@media all and (min-width:1096px) and (max-width:1399px)
+{
+    .mainBox h1 {
+        color: white;
+    
+        font-size: 85px;
+        font-family: nanumSquareEB;
+        text-align: center;
+    
+        margin: 0 auto;
+        position: absolute;
+        top: calc(40%); left: 50%;
+        transform: translate(-50%, -50%);
+    
+        animation: slideUp.7s linear;
+    }
+    
+    .mainBox h2 {
+        color: white;
+    
+        font-size: 40px;
+        font-family: nanumSquareB;
+        text-align: center;
+    
+        margin: 0 auto;
+        position: absolute;
+        top: calc(68%); left: 50%;
         transform: translate(-50%, -50%);
     
         animation: slideUp.7s linear;
@@ -103,7 +140,41 @@ body {
     
         margin: 0 auto;
         position: absolute;
-        top: calc(38%); left: 50%;
+        top: calc(40%); left: 50%;
+        transform: translate(-50%, -50%);
+    
+        animation: slideUp.7s linear;
+    }
+
+    .mainBox h2 {
+        color: white;
+    
+        font-size: 45px;
+        font-family: nanumSquareB;
+        text-align: center;
+    
+        margin: 0 auto;
+        position: absolute;
+        top: calc(68%); left: 50%;
+        transform: translate(-50%, -50%);
+    
+        animation: slideUp.7s linear;
+    }
+}
+
+/*~1875px*/
+
+@media all and (min-width: 1873px) {
+    .mainBox h1 {
+        color: white;
+    
+        font-size: 96px;
+        font-family: nanumSquareEB;
+        text-align: center;
+    
+        margin: 0 auto;
+        position: absolute;
+        top: calc(40%); left: 50%;
         transform: translate(-50%, -50%);
     
         animation: slideUp.7s linear;
@@ -118,108 +189,7 @@ body {
     
         margin: 0 auto;
         position: absolute;
-        top: calc(59%); left: 50%;
-        transform: translate(-50%, -50%);
-    
-        animation: slideUp.7s linear;
-    }
-}
-
-/*1400~1096*/
-
-@media all and (min-width:1096px) and (max-width:1399px)
-{
-    .mainBox h1 {
-        color: white;
-    
-        font-size: 76px;
-        font-family: nanumSquareEB;
-        text-align: center;
-    
-        margin: 0 auto;
-        position: absolute;
-        top: calc(35%); left: 50%;
-        transform: translate(-50%, -50%);
-    
-        animation: slideUp.7s linear;
-    }
-    
-    .mainBox h2 {
-        color: white;
-    
-        font-size: 32px;
-        font-family: nanumSquareB;
-        text-align: center;
-    
-        margin: 0 auto;
-        position: absolute;
-        top: calc(52%); left: 50%;
-        transform: translate(-50%, -50%);
-    
-        animation: slideUp.7s linear;
-    }
-}
-
-@media all and (min-width:832px) and (max-width:1095px)
-{
-    .mainBox h1 {
-        color: white;
-    
-        font-size: 64px;
-        font-family: nanumSquareEB;
-        text-align: center;
-    
-        margin: 0 auto;
-        position: absolute;
-        top: calc(25%); left: 50%;
-        transform: translate(-50%, -50%);
-    
-        animation: slideUp.7s linear;
-    }
-    
-    .mainBox h2 {
-        color: white;
-    
-        font-size: 32px;
-        font-family: nanumSquareB;
-        text-align: center;
-    
-        margin: 0 auto;
-        position: absolute;
-        top: calc(39%); left: 50%;
-        transform: translate(-50%, -50%);
-    
-        animation: slideUp.7s linear;
-    }
-}
-
-@media all and (max-width:831px)
-{
-    .mainBox h1 {
-        color: white;
-    
-        font-size: 56px;
-        font-family: nanumSquareEB;
-        text-align: center;
-    
-        margin: 0 auto;
-        position: absolute;
-        top: calc(20%); left: 50%;
-        transform: translate(-50%, -50%);
-    
-        animation: slideUp.7s linear;
-    }
-    
-    .mainBox h2 {
-        color: white;
-    
-        font-size: 24px;
-        font-family: nanumSquareB;
-        text-align: center;
-    
-        margin: 0 auto;
-        position: absolute;
-        top: calc(32%); left: 50%;
+        top: calc(55%); left: 50%;
         transform: translate(-50%, -50%);
     
         animation: slideUp.7s linear;
