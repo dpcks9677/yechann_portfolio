@@ -269,16 +269,26 @@ button:hover {
     }
 }
 
-#leftTextBox {
+.leftTextBox {
     display: inline-block;
     text-align: center;
 }
 
-#leftTextBox ul {
-    float: left;
-    text-align: left;
 
-    padding-bottom: 25%;
+@media all and (min-width: 1441px) {
+    .leftTextBox ul {
+        float: left;
+        text-align: left;
+    
+        padding-bottom: 25%;
+    }
+}
+
+@media all and (min-width: 1440px) {
+    .leftTextBox ul {
+        float: left;
+        text-align: left;
+    }
 }
 
 #name {
@@ -289,7 +299,7 @@ button:hover {
     margin-left: -20px;
 }
 
-#leftTextBox ul li {
+.leftTextBox ul li {
     font-size: 20px;
     font-family: nanumSquareB;
 }
@@ -308,28 +318,15 @@ button:hover {
     font-family: nanumSquareB;
 }
 
-@media all and (min-width: 1025px) {
-    .textBox {
-        font-size: 18px;
-        font-family: nanumSquareB;
-    
-        width: 50%;
-        margin: 0 auto;
-    
-        text-align: left;
-    }
-}
+.textBox {
+    font-size: 18px;
+    font-family: nanumSquareB;
 
-@media all and (max-width: 1024px) {
-    .textBox {
-        font-size: 18px;
-        font-family: nanumSquareB;
+    width: 50%;
+    margin: 0 auto;
+    padding-bottom: 100px;
     
-        width: 90%;
-        margin: 0 auto;
-    
-        text-align: left;
-    }
+    text-align: left;
 }
 
 /*연락*/
