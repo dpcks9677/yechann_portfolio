@@ -164,11 +164,11 @@ body {
 
 /*~1875px*/
 
-@media all and (min-width: 1873px) {
+@media all and (min-width: 1874px) {
     .mainBox h1 {
         color: white;
     
-        font-size: 96px;
+        font-size: 92px;
         font-family: nanumSquareEB;
         text-align: center;
     
@@ -333,11 +333,56 @@ button:hover {
     text-align: left;
 }
 
+/*작품*/
+
+.thingsBox {
+    display: block;
+    text-align: center;
+}
+
+.thingsCard {
+    position: relative;
+
+    display: block;
+    text-align: left;
+
+    background-color: #FFFCF0;
+
+    margin: 25px 0;
+}
+
+.thingsCard img {
+    display: inline-block;
+    
+    width: 200px;
+    padding-top: 2.5%; padding-bottom: 1%;
+    padding-left: 2%; padding-right: 2%;
+}
+
+.thingsCard #title {
+    font-family: nanumSquareEB;
+    font-size: 38px;
+
+    margin: 0;
+}
+
+.thingsCard #subject {
+    font-family: nanumSquareB;
+    font-size: 18px;
+}
+
+.thingsCard .leftTextBox {
+    display: inline-block;
+    text-align: left;
+
+    position: relative;
+}
+
 /*연락*/
 
 .iconBox {
     display: block;
-    text-align: center;
+    text-align: left;
 }
 
 .iconBox h1 {
